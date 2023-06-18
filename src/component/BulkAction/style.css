@@ -1,0 +1,14 @@
+.bulk-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c4c4c4;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.bulk-action-title {
+  margin-left: 20px;
+}

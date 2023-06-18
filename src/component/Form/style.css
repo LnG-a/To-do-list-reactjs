@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-wrapper {
+  display: flex;
+  column-gap: 50px;
+  width: 100%;
+}
+
+.form-submit {
+  width: 100%;
+  margin: 0px;
+}

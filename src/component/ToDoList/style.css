@@ -1,0 +1,31 @@
+.to-do-list-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  width: 60%;
+  border-left: 1px black solid;
+  height: 100vh;
+  position: relative;
+}
+
+.to-do-list-content {
+  padding: 0 20px;
+  height: 75vh;
+  overflow-y: auto;
+}
+
+.search-bar {
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .to-do-list-container {
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    border-top: 1px black solid;
+  }
+  .to-do-list-content {
+  }
+}
